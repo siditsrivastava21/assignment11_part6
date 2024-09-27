@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-section{
+            width:auto;
+            height: 60px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .logo-section img{
+            width:100px;
+        }
+
+        .option ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            font-size: 14px;
+        }
+
+        .option ul li{
+            padding-right: 30px;
+        } 
+
+        .refer_btn{
+            width:140px;
+            height: 40px;
+            color: #A2A7DC;
+            background-color: #F4FDFF;
+            border: none;
+        }
+        .login_btn{
+            width:80px;
+            height: 40px;
+            color: #E3666E;
+            border: 1px solid #E3666E;
+        }
+
+        button i{
+            transform: scaleX(-1)
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="navbar-section">
+        <div class="logo-section">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div  class="option">
+            <ul>
+                <li>COURSES <i class="fa-solid fa-angle-down"></i></i></li>
+                <li>FEE & ISA</li>
+                <li> ABOUT US</li>
+                <li> HIRE FROM US</li>
+                <li>FAQ</li>
+                <li>EVENTS</li>
+                
+                <li>
+                    <button class="refer_btn">REFER & EARN <i class="fa-solid fa-hand-holding-heart"></i></button> </li>
+                <li><button class="login_btn">LOGIN</button></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
